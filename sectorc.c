@@ -32,6 +32,7 @@ __attribute__((weak)) const keypos_t PROGMEM hand_swap_config[MATRIX_ROWS][MATRI
     {{0, 3}, {1, 3}, {2, 3}, {3, 3}, {4, 3}, {5, 3}, {7, 3}}
 };
 #endif
+
 #ifdef OLED_ENABLE
 
 oled_rotation_t oled_init_kb(oled_rotation_t rotation) {
@@ -161,7 +162,6 @@ bool process_record_kb(uint16_t keycode, keyrecord_t *record) {
 }
 #endif // OLED_ENABLE
 
-#pragma once
 #ifdef OLED_ENABLE
     #ifndef OLED_FONT_H
         #define OLED_FONT_H "keyboards/crkbd/lib/glcdfont.c"
