@@ -9,7 +9,6 @@
         "device_version": "0.0.1"
     },
     "ws2812": {
-        "driver": "vendor",
         "pin": "D3"
     },
     "rgb_matrix": {
@@ -19,7 +18,6 @@
     "split": {
         "enabled": true,
         "serial":{
-            "driver":"vendor",
             "pin": "D2"
         }
     },
