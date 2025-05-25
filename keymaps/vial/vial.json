@@ -1,8 +1,6 @@
 {
   "name": "Sector-C",
-  "lighting": {
-      "extends": "qmk_rgblight"
-  },
+  "lighting": "qmk_rgblight",
   "matrix": { "rows": 8, "cols": 7 },
   "layouts": {
       "keymap": [
